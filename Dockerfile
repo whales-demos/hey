@@ -7,6 +7,7 @@ COPY package.json index.js ./
 RUN npm install
 
 RUN node --version
+RUN npm --version
 EXPOSE 8080
 CMD ["node", "index.js"]
 

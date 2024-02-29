@@ -5,7 +5,7 @@ app.get('/', (req, res) => res.send(`
 <html>
   <head>
     <meta charset="utf-8">
-    <title>🌍 Hello</title>
+    <title>🌍 Hello 👋</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <style>
         .container { min-height: 100vh; display: flex; justify-content: center; align-items: center; text-align: center; }

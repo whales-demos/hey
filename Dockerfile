@@ -13,6 +13,8 @@ COPY index.js ./
 COPY README.md ./
 COPY tests.js ./
 
+RUN mocha tests.js --reporter mocha-junit-reporter
+
 EXPOSE 8080
 CMD ["node", "index.js"]
 

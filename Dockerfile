@@ -11,6 +11,7 @@ RUN npm install
 
 COPY index.js ./
 COPY README.md ./
+COPY tests.js ./
 
 EXPOSE 8080
 CMD ["node", "index.js"]
